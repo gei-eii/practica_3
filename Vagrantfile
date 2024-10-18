@@ -3,7 +3,7 @@
 
 Vagrant.configure("2") do |config|
 
-  config.vm.box = "xoan/Leap-15.4"
+  config.vm.box = "opensuse/Leap-15.6.x86_64"
 
   # evitamos actualizacions automaticas
   config.vm.box_check_update = false
